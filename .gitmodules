@@ -1,3 +1,4 @@
 [submodule "err-backend-gitter"]
 	path = err-backend-gitter
-	url = https://github.com/errbotio/err-backend-gitter.git
+	url = https://github.com/coala/err-backend-gitter.git
+

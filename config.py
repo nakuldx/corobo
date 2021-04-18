@@ -94,34 +94,32 @@ IGNORE_USERNAMES = os.environ.get("IGNORE_USERNAMES",
 DIVERT_TO_PRIVATE = ('help', )
 
 ROOMS_TO_JOIN = [
-    'coala',
-    'coala-bears',
-    'corobo',
-    'depman',
-    'ast',
-    'gci',
+#    'coala',
+#    'coala-bears',
+#    'corobo',
+#    'depman',
+#    'ast',
+#    'gci',
 ]
 
 if BACKEND == 'Gitter':
     ROOMS_TO_JOIN += [
-        'aspects',
-        'bearship',
-        'coala',
-        'coala/artwork-corner',
-        'coala/gsoc',
-        'coala/maintainers',
-        'coala/offtopic',
-        'coala/workshops',
-        'cobot',
+#        'aspects',
+#        'bearship',
+#        'coala',
+#        'coala/artwork-corner',
+#        'coala/gsoc',
+#        'coala/workshops',
+#        'cobot',
         'cobot-test',
-        'community',
-        'community',
-        'conferences',
-        'devops',
-        'documentation',
-        'editor-plugins',
-        'freelancers',
-        'performance',
+#        'community',
+#        'conferences',
+#        'devops',
+#        'documentation',
+#        'editor-plugins',
+#        'freelancers',
+#        'performance',
+        'org-invitation'
     ]
 elif BACKEND == 'Zulip':
     ROOMS_TO_JOIN += [

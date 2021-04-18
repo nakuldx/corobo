@@ -1,9 +1,0 @@
-[Core]
-name = Ban
-module = ban
-
-[Documentation]
-description = Ban/Unban from all rooms at once
-
-[Python]
-version = 3
